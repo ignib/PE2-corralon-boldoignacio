@@ -1,0 +1,292 @@
+/* Reset - configuracion basica de mis estilos */
+*{
+    font-family: "Roboto", sans-serif;   
+ }
+ .body{
+    margin: 0;
+    background-color: #D4BEBE;
+ }
+/*header*/
+.menu-flex{
+    display: flex;
+}
+.menu-navegacion{
+    background-image: url('../images/backgroun-muro.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+}
+.menu-main{
+    background-color: #a2deec;
+}
+.menu-color{
+    display: flex;
+    background-color: none;
+    width: 100%;
+}
+.menu-color ul{
+    display: flex; 
+    width: 95%;
+    justify-content: end;
+}
+.menu-color ul li {
+    list-style: none;
+    margin: 0.5rem;
+    font-weight: 700;
+    background-color: #07b5bb00
+}
+.menu-color ul li a{
+    color: #fffaf6;
+    text-decoration: none;
+}
+.card img{
+    width: 100%;
+}
+.menu-navegacion img{
+    width: 20%;
+    padding: 20px;
+}
+.tittle-principal{
+    text-align: center;
+    color: #000000;
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+/*main*/
+.card img{
+    width: 100%;
+}
+.card iframe{
+    width: 99%;
+}
+.titulo-exp{
+    text-align: center;
+    color: #000000;
+    font-weight: 400;
+    font-size: 3rem;
+}
+.card-button-index{
+    display: flex;
+    justify-content: center;
+    height: 2rem;
+    width: 3rem;
+}
+.card-index{
+    display: flex;
+    flex-flow: wrap;
+}
+.card-index h3{
+    font-weight: 700;
+    font-size: 2rem;
+    padding-left: 17rem;
+}
+.card-index-h3{
+    font-weight: 700;
+    font-size: 2rem;
+    padding-left: 25rem;
+}
+.card-index button{
+    display: flex;
+    flex-flow: wrap;
+    height: 2rem;
+    width: 5.5em;
+    margin-top: 50%;
+    margin-left: 200%;
+}
+.card-index-img img{
+    display: flex;
+    width: 40rem;
+    height: 20rem;
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+}
+.card-index p{
+    flex-flow: wrap;
+    display: flex;
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    padding-left: 0.7rem;
+    justify-content: center;
+}
+.card-flex{
+    display: flex;
+    flex-flow: wrap;
+}
+.card-index img{
+    width: 80rem;
+    height: 35rem;
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+}
+.card-ayuda{
+    border-radius: 1rem;
+    margin: 0rem;
+    flex-flow: wrap;
+    padding-left: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 55%;
+    text-align: justify;
+}
+.card-ayuda-info{
+    margin: 0rem;
+    flex-flow: wrap;
+    padding-left: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 55%;
+}
+.card-ayuda-info{
+    font-weight: 400;
+    font-size: 1.3rem;
+    margin: 1rem;
+}
+.card-ayuda img{
+    display: flex;
+    width: 77rem;
+    height: 30rem;
+    margin-top: -1.5rem;
+    margin-left: 1rem;
+}
+.card-ayuda-info h2{
+    display: flex;
+    flex-flow: wrap;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+}
+.card-ayuda p{
+    display: flex;
+    flex-flow: wrap;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.card-ayuda iframe{
+    width: 67rem;
+    height: 37rem;
+    padding-left: 5rem;
+    padding-top: 0rem;
+}
+.card-ayuda--iframe{
+    border-radius: 1rem;
+    margin: 0rem;
+    flex-flow: wrap;
+    padding-left: 2rem;
+    display: flex;
+    width: 36rem;
+}
+.card-ayuda--iframe iframe{
+    width: 67rem;
+    height: 16rem;
+}
+.card-ayuda--iframe p{
+    padding-top: 2rem;
+    font-size: 1.5rem;
+}
+.card-quienes-somos{
+    width: 30rem;
+    background-color: #b86801;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+    height: 17rem;
+    margin: 1rem;
+    flex-flow: wrap;
+    padding-left: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+.card-quienes-somos img{
+    padding: 1rem;
+    width: 15rem;
+    height: 90%
+}
+.card-quienes-somos p{
+    font-size: 1.5rem;
+    padding-right: 1rem;
+}
+.card-quienes-somos iframe{
+    width: 90%;
+    padding: 1rem;
+    padding-bottom: 1rem;
+    height: 90%;
+}
+.card-contacto{
+    width: 30rem;
+    background-color: #b86801;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+    height: 17rem;
+    margin: 1rem;
+    flex-flow: wrap;
+    padding-left: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+.card-contacto h3{
+    font-weight: 400;
+    margin-bottom: 1rem;
+    padding-top: 1rem;
+}
+.card-contacto img{
+    padding: 1rem;
+    width: 15rem;
+    height: 90%
+}
+.card-productos-video{
+    display: flex;
+    justify-content: center;
+}
+.card-productos{
+    width: 31rem;
+    background-color: #b86801;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+    flex-flow: wrap;
+    padding: 0.1rem 1rem 1rem 1rem;
+    margin: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+.card-productos img{
+    width: 30rem;
+    height: 25rem;
+}
+.card-productos h2{
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+.card-productos iframe{
+    width: 100%;
+}
+.card-text{
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 2rem;
+}
+/*footer*/
+.footer{
+    grid-area: footer;
+}
+.menu-color-foot{
+    display: flex;
+    background-color: none;
+    width: 100%;
+}
+.menu-color-foot ul{
+    display: flex; 
+    width: 95%;
+    justify-content: end;
+}
+.menu-color-foot ul li {
+    list-style: none;
+    margin: 0.5rem;
+    font-weight: 700;
+    background-color: #07b5bb00
+}
+.menu-color-foot ul li a{
+    color: #000000;
+    text-decoration: none;
+}
