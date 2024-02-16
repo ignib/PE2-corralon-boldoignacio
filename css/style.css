@@ -186,9 +186,6 @@
 }
 .card-quienes-somos{
     width: 30rem;
-    background-color: #b86801;
-    margin-bottom: 1rem;
-    border-radius: 1rem;
     height: 17rem;
     margin: 1rem;
     flex-flow: wrap;
@@ -198,10 +195,13 @@
 }
 .card-quienes-somos img{
     padding: 1rem;
-    width: 15rem;
-    height: 90%
+    width: 37rem;
+    height: 18rem;
 }
 .card-quienes-somos p{
+    width: 30rem;
+    height: 17rem;
+    margin: 1rem;
     font-size: 1.5rem;
     padding-right: 1rem;
 }
@@ -211,22 +211,29 @@
     padding-bottom: 1rem;
     height: 90%;
 }
+.card-flex-space{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+}
 .card-contacto{
-    width: 30rem;
-    background-color: #b86801;
-    margin-bottom: 1rem;
+    width: 35rem;
     border-radius: 1rem;
-    height: 17rem;
-    margin: 1rem;
+    margin: 0rem;
     flex-flow: wrap;
     padding-left: 1rem;
     display: flex;
     justify-content: space-evenly;
 }
 .card-contacto h3{
-    font-weight: 400;
+    font-weight: 700;
     margin-bottom: 1rem;
     padding-top: 1rem;
+    font-size: 1.5rem;
+}
+.card-contacto p{
+    font-weight: 400;
+    font-size: 1.5rem;
 }
 .card-contacto img{
     padding: 1rem;
@@ -236,6 +243,7 @@
 .card-productos-video{
     display: flex;
     justify-content: center;
+    margin: 1rem;
 }
 .card-productos{
     width: 31rem;
@@ -256,6 +264,10 @@
     text-align: center;
     font-weight: 700;
     font-size: 1.5rem;
+}
+.card-productos p{
+    font-weight: 400;
+    font-size: 1.2rem;
 }
 .card-productos iframe{
     width: 100%;
